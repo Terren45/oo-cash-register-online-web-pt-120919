@@ -12,7 +12,7 @@ attr_accessor :discount, :item, :last_transaction, :total
        if quantity>1
       i=0
       while i<quantity
-        @items << title
+        @items << items
         i+=1
       end
     else
